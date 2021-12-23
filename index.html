@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Calculator</title>
+</head>
+<body style="background-color: #008080;">
+    <h1 style="text-align: center;">Standard Calculator</h1>
+    <hr>
+    <hr>
+<div class="container">
+    <div class="cal">
+        <input type="text" name="" placeholder="0" id="inputText">
+        <button class="trying2" onclick="clr()">C</button>
+        <button  class="trying3" onclick="del()">DEL</button>
+        <button class="trying" onclick="calculate('%')">%</button>
+        <button class="trying" onclick="calculate('/')">/</button>
+        <button class="trying4" onclick="calculate(7)">7</button>
+        <button class="trying4" onclick="calculate(8)">8</button>
+        <button class="trying4" onclick="calculate(9)">9</button>
+        <button class="trying" onclick="calculate('*')">*</button>
+        <button class="trying4" onclick="calculate(4)">4</button>
+        <button class="trying4" onclick="calculate(5)">5</button>
+        <button class="trying4" onclick="calculate(6)">6</button>
+        <button class="trying" onclick="calculate('-')">-</button>
+        <button class="trying4" onclick="calculate(1)">1</button>
+        <button class="trying4" onclick="calculate(2)">2</button>
+        <button class="trying4" onclick="calculate(3)">3</button>
+        <button class="trying" onclick="calculate('+')">+</button>
+        <button class="trying" onclick="calculate('.')">.</button>
+        <button class="trying4" onclick="calculate(0)">0</button>
+        <button id="equals" class="trying"  onclick="Result()">=</button>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
